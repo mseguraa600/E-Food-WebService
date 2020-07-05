@@ -67,9 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EFood.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EFood.asmx.cs">
+      <DependentUpon>EFood.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
